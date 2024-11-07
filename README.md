@@ -63,7 +63,7 @@ g++ -g -O3 generateCanonicalDoubleCover.cpp -o generateCanonicalDoubleCoverExecu
 This program expects as input a list of graphs in graph6 format (one graph per line). It will output for each graph an adjacency matrix of the canonical double cover of this graph. This adjacency matrix can be easily converted to a graph6-string, again using nauty. For example, executing:
 
 ```bash
-./generateRGGraphsNoGPlus1CycleExecutable 18 3 5 | ./generateCanonicalDoubleCoverExecutable | ./nauty2\_8\_8/amtog
+./generateRGGraphsNoGPlus1CycleExecutable 18 3 5 | ./generateCanonicalDoubleCoverExecutable | ./nauty2_8_8/amtog
 ```
 
 will produce the following output:
@@ -111,7 +111,7 @@ This graph does not have any 6-cycles, because it is the unique $(3,5,\underline
 
 This program can be compiled by executing the following command:
 ```bash
-g++ -g -std=c++11 -O3 genAllLiftsOfK1\_3LoopedLeavesAlsoGirthLowerBound.cpp -o genAllLiftsOfK1\_3LoopedLeavesAlsoGirthLowerBoundExecutable
+g++ -g -std=c++11 -O3 genAllLiftsOfK1_3LoopedLeavesAlsoGirthLowerBound.cpp -o genAllLiftsOfK1_3LoopedLeavesAlsoGirthLowerBoundExecutable
 ```
 
 This program allows one to generate all regular lifts of the graph obtained by adding a loop to each leaf of the tree $K_{1,3}$, which have girth at least $g$, where the voltage assignments are considered for all groups from the input. For example, executing:
