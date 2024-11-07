@@ -11,11 +11,11 @@ The files "smallest_x,yNoz.g6" contains a complete list of all (proven) smallest
 
 ## CODE
 
-This folder contains multiple files containing code for the exhaustive generation of $(k,g,\underline{g+1})$-graphs. There are also several files containing helper functions (e.g. to support reading graphs in graph6 format, efficiently representing sets as bitsets and so on). We will only briefly discuss the code that is directly related to $(k,g,\underline{g+1})$-graphs graphs.
+This folder contains multiple files containing code for the exhaustive generation of $(k,g,\underline{g+1})$-graphs. There are also several files containing helper functions (e.g. to support reading graphs in graph6 format, efficiently representing sets as bitsets and so on). We will only briefly discuss the code that is directly related to $(k,g,\underline{g+1})$-graphs.
 
 ### generateRGGraphsNoGPlus1Cycle.c
 
-This programs allows one to generate all $k$-regular graphs with girth at least $g$ without $(g+1)$-cycles on $n$ vertices.
+This program allows one to generate all $k$-regular graphs with girth at least $g$ without $(g+1)$-cycles on $n$ vertices.
 
 These programs can be compiled by executing the makefile:
 ```bash
