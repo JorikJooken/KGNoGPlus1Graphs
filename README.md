@@ -7,7 +7,7 @@ A $(k,g,\underline{g+1})$-graphs is a $k$-regular graph with girth $g$ that does
 Below, we briefly describe the different programs and data.
 
 ## DATA
-The files "smallest_x,yNoz.g6" contains a complete list of all (proven) smallest $(x,y,\underline{z})$-graphs that were generated using the algorithm described in the paper. The files "record_x,yNoz.g6" contain the smallest such known graphs, but it is not proven that no smaller such graphs can exist. All graphs are stored in graph6-format.
+The files "smallest_x,yNoz.g6" contains a complete list of all (proven) smallest $(x,y,\underline{z})$-graphs that were generated using the algorithm described in the paper. The files "record_x,yNoz.g6" contain the smallest such known graphs, but it is not proven that no smaller such graphs can exist. The file "3RegularGirth6OddGirth11N28.g6" contains the unique smallest $(3,6,\underline{7})$-graph of odd girth 11 on 28 vertices. All graphs are stored in graph6-format.
 
 ## CODE
 
